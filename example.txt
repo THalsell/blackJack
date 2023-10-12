@@ -1,0 +1,114 @@
+
+// let age = 22
+// if (age < 21) {
+//     console.log("You can not enter the club!")
+// } else {
+//     console.log("Welcome!")
+// }
+
+
+// let age = 100
+// if (age < 100) {
+//     console.log("Not elegible.")
+// } else if (age === 100) {
+//     console.log("Here is your birthday card from the king!")
+// } else {
+//     console.log("Not elegible, you have already recieved one.")
+// }
+
+
+//let person = {
+    firstName: "Tiffany ",
+    lastName: "Halsell"
+    getFullName: function() {
+        return this.firstName + this.lastName;
+    }
+}
+console.log(person.getFullName())
+
+
+FOR IN LOOPS
+let car = {
+    doors: 4,
+    isConvertable: false,
+    make: "honda"
+}
+for(let carProps in car) {
+console.log(carProps)
+}
+
+ARRAYS
+let featuredPost = ["Check out my netflix clone", "Here's the code for my project", "Iv'e just relauncged my portfolio"]
+
+
+let mySkills = ["welding", "building transformers", "reading blueprints"]
+
+console.log( mySkills[0] )
+
+
+ARRAY with string, number and boolean
+let aboutMe = ["Tiffany", 29, true]
+
+
+let message = [
+    "Hey, how are you",
+    "im great",
+    "all good"
+]
+let newMessage = "same here"
+message.push(newMessage)
+console.log(message)
+
+
+message.pop()
+console.log(message)
+
+for ( let count = 10; count < 21; count +=1 ) {
+    console.log(count)
+}
+
+
+FOR LOOP
+for (let i = 0; i < 6; i += 1 ) {
+    console.log(i)
+}
+
+for (let i = 10: i < 101; i += 10 ) {
+    console.log(i)
+}
+
+let player1Time = 102
+let player2Time = 107
+
+ function getFastestRaceTime() {
+    if (player1Time < player2Time) {
+        return player1Time
+    } else if (player2Time < player1Time) {
+        return player2Time
+    } else {
+        player1Time
+    }
+ }
+ let getFastestRaceTime = getFastestRaceTime()
+
+
+ let randomNumber = Math.random() * 6
+
+console.log(randomNumber)
+
+let flooredNumber = Math.floor(3.45632)
+
+console.log(flooredNumber)
+
+ let flooredNumber = Math.floor( Math.random() * 6)
+
+console.log(flooredNumber)
+
+let randomNumber = Math.floor( Math.random() * 6 ) + 1
+
+console.log(randomNumber)
+
+function rollDice() {
+    let randomNumber = Math.floor( Math.random() * 6 ) + 1
+    return randomNumber
+}
